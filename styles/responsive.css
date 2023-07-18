@@ -1,53 +1,152 @@
 @media screen and (max-width:425px) {
+
     /* Navbar Media queries  */
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         padding: 45px 10px;
     }
 
-    .logo-container{
-       width: 90%;
-       margin: 0px auto;
-       gap: 10px;
-       align-items: center;
-       margin-bottom: 35px;
+    .logo-container {
+        width: 90%;
+        margin: 0px auto;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 35px;
     }
 
-    .logo-title{
+    .logo-title {
         font-size: 2rem;
     }
 
-    .logo-img{
+    .logo-img {
         width: 65px;
         height: 65px;
     }
 
-    .menu-container{
+    .menu-container {
         flex-direction: column;
         width: 90%;
         margin: 0px auto;
         gap: 20px;
     }
 
-    .follow-us{
+    .follow-us {
         margin-top: 15px;
     }
+
+    /* Banner Media Queries */
+
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 30px auto;
+        background: none;
+    }
+
+    .banner-img {
+        width: 315px;
+        height: 330px;
+        padding: 0px;
+        margin-left: 5px;
+    }
+
+    .banner-img-part {
+        width: 100%;
+    }
+
+    .banner-text-part {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        background: url("../images/Group14.png"), linear-gradient(223deg, #8C57EE0D, #F144AE0D);
+        background-size: 100% auto;
+        margin-top: 70px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .features-text {
+        font-size: 1.05rem;
+    }
+
+    .banner-features {
+        padding-left: 20px;
+    }
+
+    .banner-button {
+        justify-content: space-evenly;
+        padding-bottom: 60px;
+    }
+
+    .primary-button {
+        padding: 20px 30px;
+        font-size: 1.10rem;
+    }
+
+    .secondary-button {
+        padding: 20px 30px;
+        font-size: 1.10rem;
+    }
+
 }
 
 
 @media screen and (min-width:426px) and (max-width: 768px) {
+
     /* Navbar Media queries  */
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         padding: 45px 10px;
     }
-    .logo-container{
+
+    .logo-container {
         margin-bottom: 35px;
     }
-    .menu-container{
+
+    .menu-container {
         width: 70%;
         margin: 0px auto;
         gap: 20px;
         justify-content: space-evenly;
     }
+
+    /* Banner Media Queries */
+
+    .banner-container {
+        flex-direction: column;
+        width: 90%;
+        margin: 30px auto;
+        background: none;
+    }
+
+    .banner-text-part {
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        background: url("../images/Group14.png"), linear-gradient(223deg, #8C57EE0D, #F144AE0D);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .banner-features{
+       display: flex;
+       justify-content: center;
+    }
+
+    .banner-button {
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
 }
