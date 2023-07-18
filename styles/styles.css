@@ -68,7 +68,7 @@
     background-repeat: no-repeat;
 }
 
-.banner-text-part{
+.banner-text-part {
     width: 45%;
     padding-left: 100px;
 }
@@ -96,7 +96,7 @@
     align-items: center;
     gap: 10px;
     margin: 15px 0px;
-    
+
 }
 
 .features-text {
@@ -130,12 +130,64 @@
     background-color: #4EC5F7;
 }
 
-.banner-img-part{
+.banner-img-part {
     width: 55%;
 }
 
-.banner-img{
-   width: 550px;
-   padding-left: 80px;
-   height: 520px;
+.banner-img {
+    width: 550px;
+    padding-left: 80px;
+    height: 520px;
 }
+
+/* Online games funny styles */
+
+.online-games-container {
+    width: 90%;
+    margin: 70px auto;
+}
+
+.games-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.online-games-container .banner-color {
+    font-size: 3rem;
+}
+
+.games-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.video-box-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    width: 100%;
+}
+
+.video-box {
+    width: 290px;
+}
+
+.box-img {
+    width: 290px;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.box-caption {
+    color: #534C64;
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-align: center;
+}
+
