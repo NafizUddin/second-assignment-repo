@@ -238,6 +238,40 @@
         margin: auto;
     }
 
+    /* We are gamer media queries */
+
+    .we-gamer-container{
+        flex-direction: column;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .gamer-img-container{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .gamer-photo{
+        width: 390px;
+        padding-right: 20px;
+        padding-top: 0px;
+    }
+
+    .gamer-text-container{
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        margin-top: 15px;
+    }
+
+    .we-gamer-container .banner-color{
+        font-size: 2rem;
+    }
+
+    .last-words {
+        font-size: 1.4rem;
+    }
 }
 
 /* Game genre media queries */
@@ -369,7 +403,18 @@
         margin-top: 20px;
     }
 
-    /* game genre styles */
+    /* We are gamer media queries */
+    .we-gamer-container{
+        flex-direction: column;
+        width: 90%;
+        margin: 0px auto;
+    }
 
-    
+    .gamer-text-container{
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        margin-top: 15px;
+    }
 }
