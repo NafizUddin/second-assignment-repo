@@ -178,7 +178,40 @@
         width: 150px;
         height: 170px;
         bottom: -30px;
-        right: -25px;
+        right: -20px;
+    }
+
+    /* Career media queries */
+
+    .career-container{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .career-text-container {
+       padding: 25px 20px;
+    }
+
+    .career-description {
+        font-size: 1rem;
+    }
+
+    .artist-genre-container{
+        font-size: 0.8rem;
+    }
+
+    .career-img {
+        width: 380px;
+    }
+
+    .career-container .primary-button{
+        padding: 10px 20px ;
+        font-size: 0.8rem;
+    }
+
+    .career-img-container{
+        width: 90%;
+        margin: 0px auto;
     }
 
     /* game genre styles */
@@ -465,5 +498,33 @@
             "b1 b2 b3"
             "b4 b5 b6"
             "b7 b8 b9";
+    }
+
+    /* career media queries */
+
+    .career-container{
+        flex-direction: column;
+    }
+
+    .career-text-container {
+        padding: 30px 40px;
+     }
+
+     .artist-genre-container{
+        font-size: 1.1rem;
+    }
+
+    .career-container .primary-button{
+        padding: 15px 23px ;
+        font-size: 1rem;
+    }
+
+    .career-img-container{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .career-img {
+        margin-left: 40px;
     }
 }
