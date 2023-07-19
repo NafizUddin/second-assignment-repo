@@ -270,7 +270,7 @@
     color: #FF42A5;
 }
 
-.watch-icon{
+.watch-icon {
     font-size: 40px;
 }
 
@@ -331,7 +331,7 @@
 
 /* Play Online games styles */
 
-.play-online-container{
+.play-online-container {
     width: 80%;
     margin: 20px auto;
     margin-top: 200px;
@@ -353,12 +353,69 @@
     max-width: 370px;
 }
 
-.play-online-extra{
+.play-online-extra {
     max-width: 250px;
     border-radius: 8px;
     position: absolute;
     bottom: -80px;
     right: -120px;
+}
+
+/* Career styles */
+
+.career-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    background: url("../images/Group14.png"), linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-size: 100% auto;
+}
+
+.career-text-container {
+    color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.career-title {
+    color: #FFF;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.career-description {
+    color: #FFF;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.artist-genre-container {
+    display: flex;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.artist-genre-container li{
+    list-style: none;
+}
+
+.artist-location{
+    text-align: end;
+}
+
+.career-img {
+    width: 600px;
+}
+
+.career-container .primary-button{
+    background-color: white;
+    color: #FF42A5;
+    padding:15px 25px ;
 }
 
 /* Games genre styles */
@@ -367,11 +424,11 @@
 .game-collection-container {
     width: 90%;
     margin: 0px auto;
-    margin-top: 250px;
+    margin-top: 100px;
     margin-bottom: 100px;
     display: grid;
     grid-gap: 20px 0px;
-    grid-template-columns: repeat(10px 12, 1fr 10px);
+    grid-template-columns: repeat(10px 10, 1fr 10px);
     grid-template-areas:
         ". b1 b1 b2 b2 b3 b3 b4 b4 b5 b5 ."
         ". . b6 b6 b7 b7 b8 b8 b9 b9 . .";
@@ -502,4 +559,3 @@
     text-align: center;
     font-size: 1rem;
 }
-
