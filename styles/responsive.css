@@ -1,4 +1,4 @@
-@media screen and (max-width:425px) {
+@media only screen and (max-width:425px) {
 
     /* Navbar Media queries  */
     .nav-container {
@@ -157,7 +157,102 @@
         bottom: -30px;
         left: -25px;
     }
+
+    .game-photo{
+        width: 30px;
+    }
+    
+    .game-box{
+        gap: 5px;
+    }
+    
+    .game-name{
+        font-size: 0.7rem;
+    }
+    
+    .game-box:nth-child(4){
+        margin-right: 5px;
+    }
+
+    .game-collection-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        grid-template-areas:
+            "b1 b2 b3"
+            "b4 b5 b6"
+            "b7 b8 b9";
+    }
+      /* Footer Styles */
+
+      .foot-container{
+        height: 300px;
+      }
+
+    .foot-container .logo-container{
+    padding-top: 30px;
+    margin-bottom: 15px;
 }
+
+    .foot-container .logo-title{
+    font-size: 1.5rem;
+}
+
+    .foot-container .logo-img{
+    width: 35px;
+    height: 35px;
+}
+    .foot-list{
+        width: 90%;
+        margin: 0px auto;
+        gap:10px;
+    }
+
+    .foot-list a{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .foot-logo-container{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 50px);
+        grid-template-rows: repeat(2, 25px);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .foot-container .last-part{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .foot-container .last-part a{
+        font-size: 0.7rem;
+    }
+
+    .footer-ending{
+        font-size: 0.7rem;
+        width: 200px;
+        margin: auto;
+    }
+
+}
+
+/* Game genre media queries */
+
+/* .game-collection-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 30px;
+    grid-template-areas:
+    "b1 b2 b3"
+    "b4 b5 b6"
+    "b7 b8 b9";
+} */
 
 
 @media screen and (min-width:426px) and (max-width: 768px) {
@@ -251,4 +346,30 @@
     .play-img-extra{
         left: -110px;
     }
+
+    /* Footer Media Queries */
+
+    .foot-list{
+        width: 90%;
+        margin: 0px auto;
+        gap:20px;
+    }
+
+    .foot-list a{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .foot-logo-container{
+        height: 25px;
+        margin-top: 30px;
+    }
+
+    .footer-ending{
+        margin-top: 20px;
+    }
+
+    /* game genre styles */
+
+    
 }

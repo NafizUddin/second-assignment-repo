@@ -244,3 +244,150 @@
     bottom: -80px;
     left: -120px;
 }
+
+/* Games genre styles */
+
+
+.game-collection-container {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-gap: 20px 0px;
+    grid-template-columns: repeat(10px 12, 1fr 10px);
+    grid-template-areas:
+        ". b1 b1 b2 b2 b3 b3 b4 b4 b5 b5 ."
+        ". . b6 b6 b7 b7 b8 b8 b9 b9 . .";
+
+}
+
+
+.box-1 {
+    grid-area: b1
+}
+
+.box-2 {
+    grid-area: b2
+}
+
+.box-3 {
+    grid-area: b3
+}
+
+.box-4 {
+
+    grid-area: b4
+}
+
+.box-5 {
+    grid-area: b5
+}
+
+.box-6 {
+    grid-area: b6
+}
+
+.box-7 {
+    grid-area: b7
+}
+
+.box-8 {
+    grid-area: b8
+}
+
+.box-9 {
+    grid-area: b9
+}
+
+.game-box {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.game-box:hover {
+    border: 1px solid #FF42A5;
+    cursor: pointer;
+
+    .game-name {
+        color: #FF42A5;
+    }
+
+}
+
+.game-name {
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+/* Footer Styles */
+
+.foot-container {
+    height: 400px;
+    background-color: #0B0223;
+}
+
+.foot-container .logo-container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-container .logo-title {
+    color: white;
+}
+
+.foot-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.foot-list li {
+    list-style: none;
+}
+
+.foot-list a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.foot-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.foot-container .last-part a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.foot-container .last-part {
+    margin-top: 40px;
+}
+
+.footer-ending {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+
