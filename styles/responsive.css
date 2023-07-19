@@ -94,19 +94,19 @@
 
     /* Online games funny media queries */
 
-    .video-box-container{
+    .video-box-container {
         flex-direction: column;
     }
 
-    .games-title{
+    .games-title {
         font-size: 1.5rem;
     }
 
-    .online-games-container .banner-color{
+    .online-games-container .banner-color {
         font-size: 1.5rem;
     }
 
-    .games-description{
+    .games-description {
         font-size: 0.9rem;
     }
 
@@ -117,6 +117,46 @@
         align-items: center;
     }
 
+    /* play instantly media queries */
+
+    .play-instant-container {
+        flex-direction: column;
+    }
+
+    .play-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-text-title {
+        font-size: 2.2rem;
+    }
+
+    .play-instant-container .banner-color {
+        font-size: 2.2rem;
+    }
+
+    .play-description {
+        font-size: 1.1rem;
+    }
+
+    .play-img-main {
+        width: 270px;
+        height: 360px;
+        margin-left: 32px;
+    }
+
+    .play-img-container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .play-img-extra {
+        width: 150px;
+        height: 170px;
+        bottom: -30px;
+        left: -25px;
+    }
 }
 
 
@@ -164,9 +204,9 @@
         margin-bottom: 0px;
     }
 
-    .banner-features{
-       display: flex;
-       justify-content: center;
+    .banner-features {
+        display: flex;
+        justify-content: center;
     }
 
     .banner-button {
@@ -176,18 +216,39 @@
 
     /* Online games funny media queries */
 
-    .video-box-container{
+    .video-box-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
 
-    .games-title{
+    .games-title {
         font-size: 2.5rem;
     }
 
-    .online-games-container .banner-color{
+    .online-games-container .banner-color {
         font-size: 2.5rem;
     }
 
+    /* Play instantly media queries */
+
+    .play-instant-container {
+        flex-direction: column;
+    }
+
+    .play-text-container {
+        width: 100%;
+    }
+
+    .play-text-container {
+        max-width: 600px;
+    }
+
+    .play-img-main {
+        margin-left: 15px;
+    }
+
+    .play-img-extra{
+        left: -110px;
+    }
 }
