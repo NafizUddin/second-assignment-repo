@@ -266,8 +266,12 @@
 }
 
 .watch-text {
-    margin-top: 15px;
+    margin-top: 20px;
     color: #FF42A5;
+}
+
+.watch-icon{
+    font-size: 40px;
 }
 
 
@@ -323,6 +327,38 @@
     position: absolute;
     bottom: -80px;
     left: -120px;
+}
+
+/* Play Online games styles */
+
+.play-online-container{
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    align-items: center;
+}
+
+.play-online-container .banner-color {
+    font-size: 2.5rem;
+    text-transform: none;
+}
+
+
+
+.play-online-container .play-text-container {
+    max-width: 370px;
+}
+
+.play-online-extra{
+    max-width: 250px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -80px;
+    right: -120px;
 }
 
 /* Games genre styles */
@@ -382,7 +418,6 @@
 
 .game-box {
     display: flex;
-    margin: 0 auto;
     align-items: center;
     gap: 10px;
     border-radius: 50px;
@@ -467,3 +502,4 @@
     text-align: center;
     font-size: 1rem;
 }
+
